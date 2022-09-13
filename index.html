@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/reset.css">
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
+   <link rel="stylesheet" href="./css/fonts.css">
+   <link rel="stylesheet" href="./css/scss.css">
+   <link rel="stylesheet" href="./css/style.scss">
+   <title>Реновацио</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="overlay"></div>
+      <header class="header">
+         <div class="container">
+            <div class="header__header-inner">
+               <a href="#" class="header__logo-box">
+                  <div class="header__logo"><img src="./image/logo.jpg" alt=""></div>
+                  <div class="header__logo-title">
+                     <img src="./image/name.svg" alt="logo-name">
+                     <div class="header__logo-text">центр эстетической медицины</div>
+                  </div>
+               </a>
+               <nav class="header__menu">
+                  <ul class="header__list">
+                     <li class="header__list-item"><a href="#">Главная</a></li>
+                     <li class="header__list-item"><a href="#">О центре</a></li>
+                     <li class="header__list-item"><a href="#services">Услуги</a></li>
+                     <li class="header__list-item"><a href="#">Отзывы</a></li>
+                  </ul>
+               </nav>
+               <button class="button header__phone-menu">Меню</button>
+               <button class="button header__button-come">Войти</button>
+            </div>
+         </div>
+      </header>
+      <main class="main">
+         <section class="about">
+            <div class="about__img-doc"></div>
+            <div class="container">
+               <div class="about__about-inner">
+                  <div class="about__head">
+                     <h1 class="about__title">Наследие в заботе. Репутация в превосходстве.</h1>
+                     <p class="about__desc">Приоритеты Центра эстетической медицины «Реновацио» — комплексный подход к
+                        здоровью пациента. </p>
+                     <a href="https://www.youtube.com/watch?v=QGabLw3_4Io" class="about__player-box" data-fancybox
+                        data-type="iframe">
+                        <button class="button button--circle"><img src="./image/icon/player.svg" alt="player"></button>
+                        <span class="about__player-text">Смотреть видео о Центре</span>
+                     </a>
+                  </div>
+                  <div class="about__order-service">
+                     <div class="about__order">
+                        <div class="about__item">
+                           <div class="about__item-title">Услуга <img src="./image/icon/arrow-bot.svg" alt="arrow">
+                           </div>
+                           <select class="about__select">
+                              <option value="">Не выбрано</option>
+                              <option value="">Услуга 1</option>
+                              <option value="">Услуга 2</option>
+                              <option value="">Услуга 3</option>
+                           </select>
+                        </div>
+                        <div class="about__doctor about__item">
+                           <div class="about__item-title">Специалист <img src="./image/icon/arrow-bot.svg" alt="arrow">
+                           </div>
+                           <select class="about__select">
+                              <option value="">Не выбрано</option>
+                              <option value="">Специалист 1</option>
+                              <option value="">Специалист 2</option>
+                              <option value="">Специалист 3</option>
+                           </select>
+                        </div>
+                        <div class="about__date about__item">
+                           <div class="about__item-title">Дата <img src="./image/icon/arrow-bot.svg" alt="arrow"></div>
+                           <select class="about__select">
+                              <option value="">Не выбрано</option>
+                              <option value="">Дата 1</option>
+                              <option value="">Дата 2</option>
+                              <option value="">Дата 3</option>
+                           </select>
+                        </div>
+
+                     </div>
+                     <button class="button">Записаться</button>
+                  </div>
+
+               </div>
+            </div>
+         </section>
+         <section class="about-mini">
+            <div class="container">
+               <div class="about-mini__about-min-inner bg-grad">
+                  <div class="about-mini__item">
+                     <div class="about-mini__item-content">
+                        <div class="about-mini__image-box">
+                           <img src="./image/about/about-1.svg" alt="">
+                        </div>
+                        <h3 class="about-mini__title">Собственная лаборатория</h3>
+                        <div class="about-mini__desc">Лабораторные исследования с максимальной скоростью.</div>
+                     </div>
+                  </div>
+                  <div class="about-mini__item">
+                     <div class="about-mini__item-content">
+                        <div class="about-mini__image-box">
+                           <img src="./image/about/about-2.svg" alt="">
+                        </div>
+                        <h3 class="about-mini__title">Лучшие специалисты</h3>
+                        <div class="about-mini__desc">Врачи с большим клиническим стажем.</div>
+                     </div>
+                  </div>
+                  <div class="about-mini__item">
+                     <div class="about-mini__item-content">
+                        <div class="about-mini__image-box">
+                           <img src="./image/about/about-3.svg" alt="">
+                        </div>
+                        <h3 class="about-mini__title">Широкий спектр услуг</h3>
+                        <div class="about-mini__desc">Полный разнообразный спектр высококачественных медицинских услуг..
+                        </div>
+                     </div>
+                  </div>
+                  <div class="about-mini__item">
+                     <div class="about-mini__item-content">
+                        <div class="about-mini__image-box">
+                           <img src="./image/about/about-4.svg" alt="">
+                        </div>
+                        <h3 class="about-mini__title">Новейшее оборудование</h3>
+                        <div class="about-mini__desc">Медицинский центр «Реновацио» оснащен по последнему слову
+                           техники..</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="services" id="services">
+            <div class="container">
+               <div class="services__head">
+                  <h2 class="heading-title">Услуги</h2>
+                  <div class="arrow">
+                     <button type="button" class="slick-prev services__prev"><img src="./image/icon/arrow-left.svg"
+                           alt="arrow-left"></button>
+                     <button type="button" class="slick-next services__next"><img src="./image/icon/arrow-right.svg"
+                           alt="arrow-right"></button>
+                  </div>
+               </div>
+               <div class="services__box">
+                  <div class="services__item bg-grad">
+                     <div class='services__item-image'><img src="./image/servis/services-1.jpg" alt=""></div>
+                     <div class="services__item-title">Стоматология</div>
+                     <div class="services__item-desc">Детская стоматология, исправление прикуса, лечение зубов,
+                        отбеливание зубов...</div>
+                     <button class="button services__button--custom">Подробнее</button>
+                  </div>
+                  <div class="services__item bg-grad">
+                     <div class='services__item-image'><img src="./image/servis/services-2.jpg" alt=""></div>
+                     <div class="services__item-title">Анализы</div>
+                     <div class="services__item-desc">Анализы на гормоны, экспресс-тесты, анализы на аллергию</div>
+                     <button class="button services__button--custom">Подробнее</button>
+                  </div>
+                  <div class="services__item bg-grad">
+                     <div class='services__item-image'><img src="./image/servis/services-3.jpg" alt=""></div>
+                     <div class="services__item-title">Детское отделение</div>
+                     <div class="services__item-desc">Педиатрия, неврология, аллергология-иммунология, урология,
+                        гинекология...</div>
+                     <button class="button services__button--custom">Подробнее</button>
+                  </div>
+                  <div class="services__item bg-grad">
+                     <div class='services__item-image'><img src="./image/servis/services-1.jpg" alt=""></div>
+                     <div class="services__item-title">Стоматология</div>
+                     <div class="services__item-desc">Детская стоматология, исправление прикуса, лечение зубов,
+                        отбеливание зубов...</div>
+                     <button class="button services__button--custom">Подробнее</button>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="cosmetology">
+            <div class="container">
+               <div class="cosmetology__cosmetology-inner">
+                  <h2 class="cosmetology__title">Косметология</h2>
+                  <div class="cosmetology__item-box">
+                     <div class="cosmetology__item">
+                        <div class="cosmetology__item-image-box"><img src="./image/cosmetology/cosmetology-1.jpg"
+                              alt=""></div>
+                        <div class="cosmetology__item-desc">Снижение веса и коррекция фигуры</div>
+                     </div>
+                     <div class="cosmetology__item">
+                        <div class="cosmetology__item-image-box"><img src="./image/cosmetology/cosmetology-2.jpg"
+                              alt=""></div>
+                        <div class="cosmetology__item-desc">Снижение веса и коррекция фигуры</div>
+                     </div>
+                     <div class="cosmetology__item">
+                        <div class="cosmetology__item-image-box"><img src="./image/cosmetology/cosmetology-3.jpg"
+                              alt=""></div>
+                        <div class="cosmetology__item-desc">Снижение веса и коррекция фигуры</div>
+                     </div>
+                     <div class="cosmetology__item">
+                        <div class="cosmetology__item-image-box"><img src="./image/cosmetology/cosmetology-4.jpg"
+                              alt=""></div>
+                        <div class="cosmetology__item-desc">Снижение веса и коррекция фигуры</div>
+                     </div>
+                     <div class="cosmetology__item">
+                        <div class="cosmetology__item-image-box"><img src="./image/cosmetology/cosmetology-5.jpg"
+                              alt=""></div>
+                        <div class="cosmetology__item-desc">Снижение веса и коррекция фигуры</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <button class="button">Записаться</button>
+         </section>
+         <section class="description">
+            <div class="container">
+               <div class="description__description-inner">
+                  <div class="description__col">
+                     <div class="description__img">
+                        <div class="description__block-img"></div>
+                     </div>
+                  </div>
+                  <div class="description__col-2">
+                     <div class="description__title">Лучший сервис для вас</div>
+                     <div class="description__desc-text">Центр эстетической медицины «Реновацио» — это многопрофильный
+                        современный семейный медицинский центр в Красноярске мирового уровня. Медицинский центр общей
+                        площадью 2800 м2, в котором для диагностики и лечения используются только новейшие достижения в
+                        области медицины, современное оборудование и препараты. Медицинский центр «Реновацио» способен
+                        предоставить полный разнообразный спектр высококачественных медицинских услуг своим пациентам!
+                     </div>
+                  </div>
+               </div>
+               <div class="description__description-inner">
+
+                  <div class="description__col-2 description__col-2--aling-center ">
+                     <div class="description__desc-text">Медицинский центр «Реновацио» оснащен по последнему слову
+                        техники. Медицинский центр обладает широкими возможностями ультразвуковой диагностики. А
+                        собственная лаборатория позволяет в кротчайшие сроки и с высокой точностью обследовать пациентов
+                        и назначать эффективное лечение. Помимо этого в «Реновацио» имеется собственная зуботехническая
+                        лаборатория, благодаря которой протезирование, имплантация и восстановление эстетики зубов
+                        происходит намного быстрее.
+                     </div>
+                  </div>
+
+                  <div class="description__col">
+                     <div class="description__img">
+                        <div class="description__block-img"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="reviews">
+            <div class="container">
+               <div class="reviews__reviews-inner">
+                  <h2 class="heading-title">Отзывы</h2>
+                  <div class="reviews__content-box">
+                     <div class="reviews__item bg-grad">
+                        <div class="reviews__item-user">
+                           <img src="./image/icon/review-user.svg" alt="">
+                           <div class="reviews__item-uset-info">
+                              <div class="reviews__item-name">Анастасия М.</div>
+                              <div class="reviews__item-rating">
+                                 <img src="./image/icon/star-full.svg" alt="">
+                                 <img src="./image/icon/star-full.svg" alt="">
+                                 <img src="./image/icon/star-full.svg" alt="">
+                                 <img src="./image/icon/star-full.svg" alt="">
+                                 <img src="./image/icon/star-full.svg" alt="">
+                              </div>
+                           </div>
+                        </div>
+                        <span class="reviews__item-direction">Направление: Детская стоматология</span>
+                        <span class="reviews__item-doc"> Специалист: Алешкевич К.М.</span>
+                        <span class="reviews__item-date">Дата: 25.03.2022</span>
+                        <p class="reviews__item-review">Лечим зубы только у этого специалиста всем детям. Они никогда не
+                           плачут и вообще не боятся ходить к зубному. Считаю, что это заслуга Кирилла Михайловича.
+                           Благодарю Вас!</p>
+                     </div>
+                     <div class="reviews__item bg-grad">
+                        <div class="reviews__item-user">
+                           <img src="./image/icon/review-user.svg" alt="">
+                           <div class="reviews__item-uset-info">
+                              <div class="reviews__item-name">Анастасия М.</div>
+                              <div class="reviews__item-rating">
+                                 <img src="./image/icon/star-full.svg" alt="">
+                                 <img src="./image/icon/star-full.svg" alt="">
+                                 <img src="./image/icon/star-full.svg" alt="">
+                                 <img src="./image/icon/star-full.svg" alt="">
+                                 <img src="./image/icon/star-empty.svg" alt="">
+                              </div>
+                           </div>
+                        </div>
+                        <span class="reviews__item-direction">Направление: Детская стоматология</span>
+                        <span class="reviews__item-doc"> Специалист: Алешкевич К.М.</span>
+                        <span class="reviews__item-date">Дата: 25.03.2022</span>
+                        <p class="reviews__item-review">Лечим зубы только у этого специалиста всем детям. Они никогда не
+                           плачут и вообще не боятся ходить к зубному. Считаю, что это заслуга Кирилла Михайловича.
+                           Благодарю Вас!</p>
+                     </div>
+                     <div class="reviews__item bg-grad">
+                        <div class="reviews__item-user">
+                           <img src="./image/icon/review-user.svg" alt="">
+                           <div class="reviews__item-uset-info">
+                              <div class="reviews__item-name">Анастасия М.</div>
+                              <div class="reviews__item-rating">
+                                 <img src="./image/icon/star-full.svg" alt="">
+                                 <img src="./image/icon/star-full.svg" alt="">
+                                 <img src="./image/icon/star-full.svg" alt="">
+                                 <img src="./image/icon/star-full.svg" alt="">
+                                 <img src="./image/icon/star-full.svg" alt="">
+                              </div>
+                           </div>
+                        </div>
+                        <span class="reviews__item-direction">Направление: Детская стоматология</span>
+                        <span class="reviews__item-doc"> Специалист: Алешкевич К.М.</span>
+                        <span class="reviews__item-date">Дата: 25.03.2022</span>
+                        <p class="reviews__item-review">Лечим зубы только у этого специалиста всем детям. Они никогда не
+                           плачут и вообще не боятся ходить к зубному. Считаю, что это заслуга Кирилла Михайловича.
+                           Благодарю Вас!</p>
+                     </div>
+                     <div class="reviews__item bg-grad">
+                        <div class="reviews__item-user">
+                           <img src="./image/icon/review-user.svg" alt="">
+                           <div class="reviews__item-uset-info">
+                              <div class="reviews__item-name">Анастасия М.</div>
+                              <div class="reviews__item-rating">
+                                 <img src="./image/icon/star-full.svg" alt="">
+                                 <img src="./image/icon/star-full.svg" alt="">
+                                 <img src="./image/icon/star-full.svg" alt="">
+                                 <img src="./image/icon/star-full.svg" alt="">
+                                 <img src="./image/icon/star-full.svg" alt="">
+                              </div>
+                           </div>
+                        </div>
+                        <span class="reviews__item-direction">Направление: Детская стоматология</span>
+                        <span class="reviews__item-doc"> Специалист: Алешкевич К.М.</span>
+                        <span class="reviews__item-date">Дата: 25.03.2022</span>
+                        <p class="reviews__item-review">Лечим зубы только у этого специалиста всем детям. Они никогда не
+                           плачут и вообще не боятся ходить к зубному. Считаю, что это заслуга Кирилла Михайловича.
+                           Благодарю Вас!</p>
+                     </div>
+                  </div>
+                  <div class="reviews__arrow-box">
+                     <div class="arrow">
+                        <button type="button" class="slick-prev reviews__prev"><img src="./image/icon/arrow-left.svg"
+                              alt="arrow-left"></button>
+                        <button type="button" class="slick-next reviews__next"><img src="./image/icon/arrow-right.svg"
+                              alt="arrow-right"></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+        
+      </main>
+      <footer class="footer bg-grad">
+         <section class="connection">
+            <div class="container">
+               <div class="connection__connection-inner">
+                  <div class="connection__contact">Свяжитесь с медицинским центром "Реновацио" любым удобным для вас
+                     способом:</div>
+                  <a class="connection__tel" href="tel:+79999999999">+7 (391) 200 92 80</a>
+                  <a class="connection__mail" href="mailto:qwe@mail.ru">Задать нам вопрос</a>
+               </div>
+            </div>
+         </section>
+         <div class="container">
+            <div class="footer__footer-inner">
+               <ul>
+                  <li><a href="#">Анализы</a></li>
+                  <li><a href="#">Справки</a></li>
+                  <li><a href="#">Поликлиника</a></li>
+                  <li><a href="#">Стоматология</a></li>
+                  <li><a href="#">Косметология</a></li>
+               </ul>
+               <ul>
+                  <li><a href="#">Отделение хирургии</a></li>
+                  <li><a href="#">Детское отделение</a></li>
+                  <li><a href="#">Пластическая хирургия</a></li>
+                  <li><a href="#">Комплексное обследование</a></li>
+                  <li><a href="#">Восстановительная медицина</a></li>
+               </ul>
+               <div class="footer__contact">
+                  <div>Наш адрес</div>
+                  <div class="footer__addres">г. Красноярск, ул. Весны, 7д Советский Район (Взлетка)</div>
+                  <div>
+                     <img src="./image/icon/vk.svg" alt="">
+                     <img src="./image/icon/inst.svg" alt="">
+                     <img src="./image/icon/yt.svg" alt="">
+                  </div>
+                  <div class="footer__copy">© 2022 Реновацио - центр эстетической медицины</div>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+
+
+   <!-- scripts -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+   <script src="./js/main.js"></script>
+</body>
+
+</html>

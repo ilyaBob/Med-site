@@ -444,7 +444,9 @@ html {
       margin-bottom: 60px;
    }
 
-   // .description__desc-text
+   &__block-img-bg2 {
+      background: url('../image/descr/descr-2.jpg');
+   }
 
    &__desc-text {
       font-size: 18px;
@@ -890,7 +892,7 @@ html {
 
    .services {
       .services__item {
-         margin: 0 76px;
+         margin: 0 6px;
       }
    }
 
@@ -916,10 +918,24 @@ html {
          min-height: 480px;
          padding: 40px 30px;
          color: white;
-         margin: 0 85px;
+         margin: 0 5px;
       }
    }
 
+}
+
+@media (max-width: 600px) {
+   .services {
+      .services__item {
+         margin: 0 76px;
+      }
+   }
+
+   .reviews {
+      .reviews__item {
+         margin: 0 85px;   
+      }
+   }
 }
 
 @media (max-width: 550px) {
@@ -940,6 +956,7 @@ html {
    .about {
       padding: 45px 0 12px 0;
       background: url(../image/plus.svg) 116% 362px no-repeat rgb(233, 233, 232);
+
       .about__title {
          font-size: 28px;
       }
@@ -976,16 +993,26 @@ html {
       }
    }
 
-   .services {
-      .services__item {
-         margin: 0 11px;
-      }
 
       .description__desc-text {
          font-size: 14px;
          line-height: 140%;
          color: #0D170B;
          max-width: 536px;
+      }
+   
+
+
+   .connection {
+      .connection__connection-inner {
+         height: 328px;
+      }
+   }
+}
+@media (max-width: 400px){
+   .services {
+      .services__item {
+         margin: 0 11px;
       }
    }
 
@@ -994,12 +1021,5 @@ html {
          margin: 0 10px;
       }
    }
-
-   .connection {
-      .connection__connection-inner {
-         height: 328px;
-      }
-   }
 }
-
 @media (max-width: 350px) {}

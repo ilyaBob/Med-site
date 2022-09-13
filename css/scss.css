@@ -370,6 +370,9 @@ html {
   letter-spacing: 0.01em;
   margin-bottom: 60px;
 }
+.description__block-img-bg2 {
+  background: url("../image/descr/descr-2.jpg");
+}
 .description__desc-text {
   font-size: 18px;
   line-height: 140%;
@@ -706,7 +709,7 @@ html {
     margin-bottom: 47px;
   }
   .services .services__item {
-    margin: 0 76px;
+    margin: 0 6px;
   }
   .about-mini .about-mini__about-min-inner {
     flex-wrap: wrap;
@@ -723,6 +726,14 @@ html {
     min-height: 480px;
     padding: 40px 30px;
     color: white;
+    margin: 0 5px;
+  }
+}
+@media (max-width: 600px) {
+  .services .services__item {
+    margin: 0 76px;
+  }
+  .reviews .reviews__item {
     margin: 0 85px;
   }
 }
@@ -766,20 +777,22 @@ html {
   .about-mini .about-mini__item {
     max-width: 100%;
   }
-  .services .services__item {
-    margin: 0 11px;
-  }
-  .services .description__desc-text {
+  .description__desc-text {
     font-size: 14px;
     line-height: 140%;
     color: #0D170B;
     max-width: 536px;
   }
-  .reviews .reviews__item {
-    margin: 0 10px;
-  }
   .connection .connection__connection-inner {
     height: 328px;
+  }
+}
+@media (max-width: 400px) {
+  .services .services__item {
+    margin: 0 11px;
+  }
+  .reviews .reviews__item {
+    margin: 0 10px;
   }
 }
 
